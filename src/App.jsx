@@ -55,7 +55,7 @@ useEffect(() => {
           readOnly
           ref={passwordRef}
            />
-          <button className='bg-blue-500 rounded-e-md p-3 text-white '
+          <button className='bg-blue-500 rounded-e-md p-3 text-white active:bg-blue-900'
           onClick={copyPassword}
           >Copy</button>
         </div>
